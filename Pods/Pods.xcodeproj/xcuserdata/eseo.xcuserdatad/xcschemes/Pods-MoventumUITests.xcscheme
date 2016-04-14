@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FD777F59E0D961E49C775FDF'
+               BlueprintIdentifier = 'A2F13D227FDD3BD84EA02DEF'
                BlueprintName = 'Pods-MoventumUITests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_MoventumUITests.framework'>

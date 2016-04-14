@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		17502042E9D24C97EA6238D6 /* Pods_Moventum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0B306A787CC66DFC720535 /* Pods_Moventum.framework */; };
 		42C1FF791B440A3F05A17DA4 /* Pods_MoventumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275455AC8D5CD3754FBA751 /* Pods_MoventumTests.framework */; };
+		5172AA0E1CC00C1F006215CA /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172AA0D1CC00C1F006215CA /* LoginViewModelTests.swift */; };
+		5172AA101CC00C62006215CA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172AA0F1CC00C62006215CA /* LoginViewModel.swift */; };
+		5172AA131CC00FD5006215CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172AA121CC00FD5006215CA /* LoginViewController.swift */; };
 		518E0FA31CBF6DB800DD51AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E0FA21CBF6DB800DD51AA /* AppDelegate.swift */; };
-		518E0FA51CBF6DB800DD51AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E0FA41CBF6DB800DD51AA /* ViewController.swift */; };
-		518E0FA81CBF6DB800DD51AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E0FA61CBF6DB800DD51AA /* Main.storyboard */; };
 		518E0FAA1CBF6DB800DD51AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E0FA91CBF6DB800DD51AA /* Assets.xcassets */; };
 		518E0FAD1CBF6DB800DD51AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E0FAB1CBF6DB800DD51AA /* LaunchScreen.storyboard */; };
+		51936CF91CC060BF007E8250 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51936CF81CC060BF007E8250 /* Login.storyboard */; };
 		51B15E2F1CBF725200809E8A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B15E2E1CBF725200809E8A /* Category.swift */; };
 		51B15E311CBF726300809E8A /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B15E301CBF726300809E8A /* Move.swift */; };
 		51B15E331CBF726D00809E8A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B15E321CBF726D00809E8A /* Item.swift */; };
@@ -45,10 +47,11 @@
 		1E1175F3AD7CF66B477F63DC /* Pods-MoventumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoventumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoventumTests/Pods-MoventumTests.release.xcconfig"; sourceTree = "<group>"; };
 		299F56532302D31CAE8CB9AC /* Pods-Moventum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moventum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moventum/Pods-Moventum.release.xcconfig"; sourceTree = "<group>"; };
 		3275455AC8D5CD3754FBA751 /* Pods_MoventumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoventumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5172AA0D1CC00C1F006215CA /* LoginViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		5172AA0F1CC00C62006215CA /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ViewModel/LoginViewModel.swift; sourceTree = "<group>"; };
+		5172AA121CC00FD5006215CA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
 		518E0F9F1CBF6DB800DD51AA /* Moventum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moventum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518E0FA21CBF6DB800DD51AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		518E0FA41CBF6DB800DD51AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		518E0FA71CBF6DB800DD51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		518E0FA91CBF6DB800DD51AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518E0FAC1CBF6DB800DD51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518E0FAE1CBF6DB800DD51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		518E0FB91CBF6DB800DD51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518E0FBE1CBF6DB800DD51AA /* MoventumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoventumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518E0FC41CBF6DB800DD51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51936CF81CC060BF007E8250 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
 		51B15E2E1CBF725200809E8A /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Models/Category.swift; sourceTree = "<group>"; };
 		51B15E301CBF726300809E8A /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Move.swift; path = Models/Move.swift; sourceTree = "<group>"; };
 		51B15E321CBF726D00809E8A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Models/Item.swift; sourceTree = "<group>"; };
@@ -95,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5172AA111CC00CFD006215CA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5172AA121CC00FD5006215CA /* LoginViewController.swift */,
+				5172AA0F1CC00C62006215CA /* LoginViewModel.swift */,
+				51936CF81CC060BF007E8250 /* Login.storyboard */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		518E0F961CBF6DB800DD51AA = {
 			isa = PBXGroup;
 			children = (
@@ -121,13 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				518E0FA21CBF6DB800DD51AA /* AppDelegate.swift */,
-				518E0FA41CBF6DB800DD51AA /* ViewController.swift */,
+				5172AA111CC00CFD006215CA /* Login */,
 				51B15E391CBF744000809E8A /* Category */,
-				518E0FA61CBF6DB800DD51AA /* Main.storyboard */,
+				51B15E341CBF727400809E8A /* Models */,
 				518E0FA91CBF6DB800DD51AA /* Assets.xcassets */,
 				518E0FAB1CBF6DB800DD51AA /* LaunchScreen.storyboard */,
 				518E0FAE1CBF6DB800DD51AA /* Info.plist */,
-				51B15E341CBF727400809E8A /* Models */,
 			);
 			path = Moventum;
 			sourceTree = "<group>";
@@ -137,6 +150,7 @@
 			children = (
 				518E0FB91CBF6DB800DD51AA /* Info.plist */,
 				51B15E351CBF72C500809E8A /* CategoryViewModelTests.swift */,
+				5172AA0D1CC00C1F006215CA /* LoginViewModelTests.swift */,
 			);
 			path = MoventumTests;
 			sourceTree = "<group>";
@@ -307,7 +321,7 @@
 			files = (
 				518E0FAD1CBF6DB800DD51AA /* LaunchScreen.storyboard in Resources */,
 				518E0FAA1CBF6DB800DD51AA /* Assets.xcassets in Resources */,
-				518E0FA81CBF6DB800DD51AA /* Main.storyboard in Resources */,
+				51936CF91CC060BF007E8250 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,10 +471,11 @@
 			files = (
 				51B15E331CBF726D00809E8A /* Item.swift in Sources */,
 				51B15E311CBF726300809E8A /* Move.swift in Sources */,
-				518E0FA51CBF6DB800DD51AA /* ViewController.swift in Sources */,
 				518E0FA31CBF6DB800DD51AA /* AppDelegate.swift in Sources */,
+				5172AA131CC00FD5006215CA /* LoginViewController.swift in Sources */,
 				51B15E381CBF743400809E8A /* CategoryViewModel.swift in Sources */,
 				51B15E2F1CBF725200809E8A /* Category.swift in Sources */,
+				5172AA101CC00C62006215CA /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5172AA0E1CC00C1F006215CA /* LoginViewModelTests.swift in Sources */,
 				51B15E361CBF72C500809E8A /* CategoryViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,14 +511,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		518E0FA61CBF6DB800DD51AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				518E0FA71CBF6DB800DD51AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		518E0FAB1CBF6DB800DD51AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

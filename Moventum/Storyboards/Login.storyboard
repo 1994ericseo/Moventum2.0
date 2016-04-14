@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Iwn-75-lAX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="bQZ-5y-hkn">
+            <objects>
+                <viewController id="Iwn-75-lAX" customClass="LoginViewController" customModule="Moventum" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Hr-h0-2Yh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sn2-me-X0I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4SA-OU-bXZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YLv-e6-dhl">
+                                <rect key="frame" x="190" y="139" width="221" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ca-Vc-bjG">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Login"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PTA-6o-mYr">
+                                <rect key="frame" x="190" y="209" width="221" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YLv-e6-dhl" firstAttribute="centerX" secondItem="4SA-OU-bXZ" secondAttribute="centerX" id="10G-qA-7vq"/>
+                            <constraint firstItem="PTA-6o-mYr" firstAttribute="centerX" secondItem="4SA-OU-bXZ" secondAttribute="centerX" id="EqR-3P-BrD"/>
+                            <constraint firstItem="3ca-Vc-bjG" firstAttribute="centerX" secondItem="4SA-OU-bXZ" secondAttribute="centerX" id="RnY-LE-wgS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordOutlet" destination="PTA-6o-mYr" id="LG1-WD-qVh"/>
+                        <outlet property="signinOutlet" destination="3ca-Vc-bjG" id="Rpb-U7-QMu"/>
+                        <outlet property="usernameOutlet" destination="YLv-e6-dhl" id="zvF-dP-1qO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tPs-LV-MGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="299" y="383"/>
+        </scene>
+    </scenes>
+</document>

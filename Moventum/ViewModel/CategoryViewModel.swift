@@ -10,26 +10,28 @@ import Foundation
 import RealmSwift
 
 class CategoryViewModel {
-    
+    let realmDataBase: Realm
     var categories: Results<Category>?
-    let realm: Realm
-    
     
     init() {
-        realm = try! Realm()
-        categories = realm.objects(Category)
+        realmDataBase = try! Realm()
+        categories = realmDataBase.objects(Category)
         
         //when user first starts the app
         if categories?.count == 0 {
-            initialLoadCategory()
+            let firstCategory = Category()
+            firstCategory.name = "New Category"
+            try! realmDataBase.write {
+                realmDataBase.add(firstCategory)
+            }
         }
     }
     
-    func initialLoadCategory() {
-        let firstCategory = Category()
-        firstCategory.name = "New Category"
-        try! realm.write {
-            realm.add(firstCategory)
+    func addCategory() {
+        let newCategory = Category()
+        newCategory.name = "New Category"
+        try! realmDataBase.write {
+            realmDataBase.add(newCategory)
         }
     }
 }
