@@ -1,0 +1,6 @@
+framework module Pods_MoventumUITests {
+  umbrella header "Pods-MoventumUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
