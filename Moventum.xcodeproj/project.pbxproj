@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		518E0FA31CBF6DB800DD51AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E0FA21CBF6DB800DD51AA /* AppDelegate.swift */; };
+		518E0FA51CBF6DB800DD51AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E0FA41CBF6DB800DD51AA /* ViewController.swift */; };
+		518E0FA81CBF6DB800DD51AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E0FA61CBF6DB800DD51AA /* Main.storyboard */; };
+		518E0FAA1CBF6DB800DD51AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E0FA91CBF6DB800DD51AA /* Assets.xcassets */; };
+		518E0FAD1CBF6DB800DD51AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E0FAB1CBF6DB800DD51AA /* LaunchScreen.storyboard */; };
+		518E0FB81CBF6DB800DD51AA /* MoventumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E0FB71CBF6DB800DD51AA /* MoventumTests.swift */; };
+		518E0FC31CBF6DB800DD51AA /* MoventumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E0FC21CBF6DB800DD51AA /* MoventumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518E0FB41CBF6DB800DD51AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518E0F971CBF6DB800DD51AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518E0F9E1CBF6DB800DD51AA;
+			remoteInfo = Moventum;
+		};
+		518E0FBF1CBF6DB800DD51AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518E0F971CBF6DB800DD51AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518E0F9E1CBF6DB800DD51AA;
+			remoteInfo = Moventum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		518E0F9F1CBF6DB800DD51AA /* Moventum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moventum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		518E0FA21CBF6DB800DD51AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		518E0FA41CBF6DB800DD51AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		518E0FA71CBF6DB800DD51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518E0FA91CBF6DB800DD51AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		518E0FAC1CBF6DB800DD51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		518E0FAE1CBF6DB800DD51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518E0FB31CBF6DB800DD51AA /* MoventumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoventumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518E0FB71CBF6DB800DD51AA /* MoventumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoventumTests.swift; sourceTree = "<group>"; };
+		518E0FB91CBF6DB800DD51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518E0FBE1CBF6DB800DD51AA /* MoventumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoventumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518E0FC21CBF6DB800DD51AA /* MoventumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoventumUITests.swift; sourceTree = "<group>"; };
+		518E0FC41CBF6DB800DD51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518E0F9C1CBF6DB800DD51AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E0FB01CBF6DB800DD51AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E0FBB1CBF6DB800DD51AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518E0F961CBF6DB800DD51AA = {
+			isa = PBXGroup;
+			children = (
+				518E0FA11CBF6DB800DD51AA /* Moventum */,
+				518E0FB61CBF6DB800DD51AA /* MoventumTests */,
+				518E0FC11CBF6DB800DD51AA /* MoventumUITests */,
+				518E0FA01CBF6DB800DD51AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		518E0FA01CBF6DB800DD51AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518E0F9F1CBF6DB800DD51AA /* Moventum.app */,
+				518E0FB31CBF6DB800DD51AA /* MoventumTests.xctest */,
+				518E0FBE1CBF6DB800DD51AA /* MoventumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518E0FA11CBF6DB800DD51AA /* Moventum */ = {
+			isa = PBXGroup;
+			children = (
+				518E0FA21CBF6DB800DD51AA /* AppDelegate.swift */,
+				518E0FA41CBF6DB800DD51AA /* ViewController.swift */,
+				518E0FA61CBF6DB800DD51AA /* Main.storyboard */,
+				518E0FA91CBF6DB800DD51AA /* Assets.xcassets */,
+				518E0FAB1CBF6DB800DD51AA /* LaunchScreen.storyboard */,
+				518E0FAE1CBF6DB800DD51AA /* Info.plist */,
+			);
+			path = Moventum;
+			sourceTree = "<group>";
+		};
+		518E0FB61CBF6DB800DD51AA /* MoventumTests */ = {
+			isa = PBXGroup;
+			children = (
+				518E0FB71CBF6DB800DD51AA /* MoventumTests.swift */,
+				518E0FB91CBF6DB800DD51AA /* Info.plist */,
+			);
+			path = MoventumTests;
+			sourceTree = "<group>";
+		};
+		518E0FC11CBF6DB800DD51AA /* MoventumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				518E0FC21CBF6DB800DD51AA /* MoventumUITests.swift */,
+				518E0FC41CBF6DB800DD51AA /* Info.plist */,
+			);
+			path = MoventumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518E0F9E1CBF6DB800DD51AA /* Moventum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518E0FC71CBF6DB800DD51AA /* Build configuration list for PBXNativeTarget "Moventum" */;
+			buildPhases = (
+				518E0F9B1CBF6DB800DD51AA /* Sources */,
+				518E0F9C1CBF6DB800DD51AA /* Frameworks */,
+				518E0F9D1CBF6DB800DD51AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moventum;
+			productName = Moventum;
+			productReference = 518E0F9F1CBF6DB800DD51AA /* Moventum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		518E0FB21CBF6DB800DD51AA /* MoventumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518E0FCA1CBF6DB800DD51AA /* Build configuration list for PBXNativeTarget "MoventumTests" */;
+			buildPhases = (
+				518E0FAF1CBF6DB800DD51AA /* Sources */,
+				518E0FB01CBF6DB800DD51AA /* Frameworks */,
+				518E0FB11CBF6DB800DD51AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518E0FB51CBF6DB800DD51AA /* PBXTargetDependency */,
+			);
+			name = MoventumTests;
+			productName = MoventumTests;
+			productReference = 518E0FB31CBF6DB800DD51AA /* MoventumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		518E0FBD1CBF6DB800DD51AA /* MoventumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518E0FCD1CBF6DB800DD51AA /* Build configuration list for PBXNativeTarget "MoventumUITests" */;
+			buildPhases = (
+				518E0FBA1CBF6DB800DD51AA /* Sources */,
+				518E0FBB1CBF6DB800DD51AA /* Frameworks */,
+				518E0FBC1CBF6DB800DD51AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518E0FC01CBF6DB800DD51AA /* PBXTargetDependency */,
+			);
+			name = MoventumUITests;
+			productName = MoventumUITests;
+			productReference = 518E0FBE1CBF6DB800DD51AA /* MoventumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518E0F971CBF6DB800DD51AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eric Seo";
+				TargetAttributes = {
+					518E0F9E1CBF6DB800DD51AA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9ZB772CJ2X;
+					};
+					518E0FB21CBF6DB800DD51AA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9ZB772CJ2X;
+						TestTargetID = 518E0F9E1CBF6DB800DD51AA;
+					};
+					518E0FBD1CBF6DB800DD51AA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9ZB772CJ2X;
+						TestTargetID = 518E0F9E1CBF6DB800DD51AA;
+					};
+				};
+			};
+			buildConfigurationList = 518E0F9A1CBF6DB800DD51AA /* Build configuration list for PBXProject "Moventum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518E0F961CBF6DB800DD51AA;
+			productRefGroup = 518E0FA01CBF6DB800DD51AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518E0F9E1CBF6DB800DD51AA /* Moventum */,
+				518E0FB21CBF6DB800DD51AA /* MoventumTests */,
+				518E0FBD1CBF6DB800DD51AA /* MoventumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518E0F9D1CBF6DB800DD51AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518E0FAD1CBF6DB800DD51AA /* LaunchScreen.storyboard in Resources */,
+				518E0FAA1CBF6DB800DD51AA /* Assets.xcassets in Resources */,
+				518E0FA81CBF6DB800DD51AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E0FB11CBF6DB800DD51AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E0FBC1CBF6DB800DD51AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518E0F9B1CBF6DB800DD51AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518E0FA51CBF6DB800DD51AA /* ViewController.swift in Sources */,
+				518E0FA31CBF6DB800DD51AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E0FAF1CBF6DB800DD51AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518E0FB81CBF6DB800DD51AA /* MoventumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518E0FBA1CBF6DB800DD51AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518E0FC31CBF6DB800DD51AA /* MoventumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		518E0FB51CBF6DB800DD51AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518E0F9E1CBF6DB800DD51AA /* Moventum */;
+			targetProxy = 518E0FB41CBF6DB800DD51AA /* PBXContainerItemProxy */;
+		};
+		518E0FC01CBF6DB800DD51AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518E0F9E1CBF6DB800DD51AA /* Moventum */;
+			targetProxy = 518E0FBF1CBF6DB800DD51AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		518E0FA61CBF6DB800DD51AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518E0FA71CBF6DB800DD51AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518E0FAB1CBF6DB800DD51AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518E0FAC1CBF6DB800DD51AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518E0FC51CBF6DB800DD51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		518E0FC61CBF6DB800DD51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518E0FC81CBF6DB800DD51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moventum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.Moventum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		518E0FC91CBF6DB800DD51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moventum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.Moventum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		518E0FCB1CBF6DB800DD51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoventumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.MoventumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moventum.app/Moventum";
+			};
+			name = Debug;
+		};
+		518E0FCC1CBF6DB800DD51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoventumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.MoventumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moventum.app/Moventum";
+			};
+			name = Release;
+		};
+		518E0FCE1CBF6DB800DD51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoventumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.MoventumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Moventum;
+			};
+			name = Debug;
+		};
+		518E0FCF1CBF6DB800DD51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoventumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.MoventumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Moventum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518E0F9A1CBF6DB800DD51AA /* Build configuration list for PBXProject "Moventum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518E0FC51CBF6DB800DD51AA /* Debug */,
+				518E0FC61CBF6DB800DD51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518E0FC71CBF6DB800DD51AA /* Build configuration list for PBXNativeTarget "Moventum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518E0FC81CBF6DB800DD51AA /* Debug */,
+				518E0FC91CBF6DB800DD51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		518E0FCA1CBF6DB800DD51AA /* Build configuration list for PBXNativeTarget "MoventumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518E0FCB1CBF6DB800DD51AA /* Debug */,
+				518E0FCC1CBF6DB800DD51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		518E0FCD1CBF6DB800DD51AA /* Build configuration list for PBXNativeTarget "MoventumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518E0FCE1CBF6DB800DD51AA /* Debug */,
+				518E0FCF1CBF6DB800DD51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518E0F971CBF6DB800DD51AA /* Project object */;
+}
